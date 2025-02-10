@@ -1,0 +1,5 @@
+flask
+openai
+pandas
+python-dotenv
+dateparser
