@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 
 # Load API key from .env file
 load_dotenv()
-api_key = st.secrets("OPENAI_API_KEY")
+api_key = st.secrets["OPENAI_API_KEY"]
 
 # Initialize OpenAI client
 client = openai.OpenAI(api_key=api_key)
